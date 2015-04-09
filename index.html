@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
 <title>Michael Garfinkel</title>
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
 <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
@@ -13,7 +14,8 @@
   .container {
     text-align: center;
     background-color: #fff;
-    width: 500px;
+    width: 90%;
+    max-width: 500px;
     margin: 20px auto;
     border-radius: 5px;
     padding: 20px;
@@ -36,9 +38,10 @@
     color: #4e84c4;
   }
   p span {
+    display: inline-block;
     background-color: #00A388;
     color: #fff;
-    margin: 0 5px;
+    margin: 10px 5px;
     padding: 5px 10px;
     border-radius: 20px;
   }
@@ -49,9 +52,9 @@
     text-align: center;
   }
   .links a {
-    display: inline-block;
+    display: block;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 20px 10px;
     font-size: 20px;
     padding: 10px 20px;
     border: 2px solid #323232;
@@ -77,6 +80,11 @@
     color: #00A388;
     border-color: #00A388;
   }
+  @media only screen and (min-width: 490px) {
+    .links a {
+      display: inline-block;
+    }
+  }
 </style>
 </head>
 
@@ -89,7 +97,7 @@
     <p>Currently learning: <span>Meteor</span> <span>NodeJS</span> <span>GruntJS</span></p>
   </div>
   <div class="links">
-    <a id="github" href="#"><i class="ion-social-github"></i> Github</a><a id="oldportfolio" href="#"><i class="ion-images"></i> Old Portfolio</a><a id="linkedin" href="#"><i class="ion-social-linkedin"></i> Linkedin</a>
+    <a id="github" href="https://github.com/mgarf"><i class="ion-social-github"></i> Github</a><a id="oldportfolio" href="https://flic.kr/s/aHsjR2fLAS"><i class="ion-images"></i> Old Portfolio</a><a id="linkedin" href="https://www.linkedin.com/in/mgarfinkel"><i class="ion-social-linkedin"></i> Linkedin</a>
   </div>
 </body>
 
