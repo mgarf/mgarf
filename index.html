@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
 <title>Michael Garfinkel</title>
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
 <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
@@ -20,7 +22,8 @@
     border-radius: 5px;
     padding: 20px;
     -moz-box-sizing: border-box;
-         box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
     }
   h1 {
     font-size: 40px;
@@ -53,8 +56,12 @@
   }
   .links a {
     display: block;
+    width: 90%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
     text-decoration: none;
-    margin: 20px 10px;
+    margin: 20px auto;
     font-size: 20px;
     padding: 10px 20px;
     border: 2px solid #323232;
@@ -83,6 +90,8 @@
   @media only screen and (min-width: 490px) {
     .links a {
       display: inline-block;
+      margin: 20px 10px;
+      width: auto;
     }
   }
 </style>
@@ -94,7 +103,7 @@
     <h1>Michael <span>Garfinkel</span></h1>
     <h2>Employed at <span>Tata Consultancy Services</span></h2>
     <p>Currently working in the role of a Business Analyst. I have a strong passion for tinkering and technology.</p>
-    <p>Currently learning: <span>Meteor</span> <span>NodeJS</span> <span>GruntJS</span></p>
+    <p>Currently tinkering with: <span>Meteor</span> <span>NodeJS</span> <span>GruntJS</span></p>
   </div>
   <div class="links">
     <a id="github" href="https://github.com/mgarf"><i class="ion-social-github"></i> Github</a><a id="oldportfolio" href="https://flic.kr/s/aHsjR2fLAS"><i class="ion-images"></i> Old Portfolio</a><a id="linkedin" href="https://www.linkedin.com/in/mgarfinkel"><i class="ion-social-linkedin"></i> Linkedin</a>
